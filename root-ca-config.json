@@ -1,0 +1,29 @@
+    {
+        "signing": {
+            "default": {
+            "expiry": "87600h",
+            "usages": [
+                "signing",
+                "key encipherment",
+                "cert sign",
+                "crl sign"
+            ]
+            },
+            "profiles": {
+            "intermediate": {
+                "expiry": "43800h",
+                "usages": [
+                "signing",
+                "key encipherment",
+                "cert sign",
+                "crl sign"
+                ],
+                "ca_constraint": {
+                "is_ca": true,
+                "max_path_len": 0,
+                "max_path_len_zero": true
+                }
+            }
+            }
+        }
+    }

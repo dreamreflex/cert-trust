@@ -1,0 +1,7 @@
+
+*.exe
+# PKI sensitive
+*.key
+*.key.pem
+*.private
+*key*.pem

@@ -1,0 +1,16 @@
+{
+  "CN": "DreamReflex Application Intermediate CA",
+  "key": {
+    "algo": "rsa",
+    "size": 4096
+  },
+  "names": [
+    {
+      "C":  "CN",
+      "ST": "Beijing",
+      "L":  "Beijing",
+      "O":  "DreamReflex",
+      "OU": "Application Intermediate CA"
+    }
+  ]
+}

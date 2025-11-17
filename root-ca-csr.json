@@ -1,0 +1,19 @@
+    {
+        "CN": "DreamReflex Root CA",
+        "key": {
+            "algo": "rsa",
+            "size": 4096
+        },
+        "ca": {
+            "expiry": "87600h"
+        },
+        "names": [
+            {
+            "C":  "CN",
+            "ST": "Beijing",
+            "L":  "Beijing",
+            "O":  "DreamReflex PKI",
+            "OU": "Root CA"
+            }
+        ]
+    }
